@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 55px;
+  background-image: linear-gradient(to right, rgb(209, 98, 98), rgb(199, 163, 97), rgb(171, 171, 69), rgb(58, 163, 58), rgb(112, 112, 204), rgb(177, 133, 208), rgb(187, 84, 187));
+}
+.container {
+  background-color: #141313;
+  width: 40%;
+  min-width: 500px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 60px 0;
+  border-radius: 10px;
+}
+.timerDisplay {
+  position: relative;
+  width: 110%;
+  background: linear-gradient(-135deg, #0048ce, #008bfd);
+  right: 5%;
+  padding: 40px 0;
+  font-family: "roboto mono" monospace;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 0 24px rgba(0, 139, 255, 0.25);
+}
+.Buttons {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: 60px auto 0 auto;
+}
+.Buttons button {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: black;
+  border: none;
+  font-family: "poppins", sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
